@@ -7225,15 +7225,6 @@ footer {
   padding: 50px 0 40px 0;
   background-image: linear-gradient(#5bd4d4, #44b8b8); }
 
-.transition {
-  font-size: 1rem;
-  font-weight: 900;
-  text-align: center; }
-
-.transition:hover {
-  transition: 2s;
-  font-size: 2rem; }
-
 section img {
   padding-top: 25px;
   padding-bottom: 30px; }
@@ -7284,7 +7275,10 @@ h6 {
 
 .gridContainer2 {
   display: grid;
-  grid-template-areas: "titulo titulo foto" "parrafo parrafo foto" "video video foto" "video video foto";
+  grid-template-areas: "titulo titulo foto"
+ "parrafo parrafo foto"
+ "video video foto"
+ "video video foto";
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 60px 60px auto auto; }
 
@@ -7395,7 +7389,10 @@ p {
     justify-content: space-evenly; }
   .gridContainer2 {
     display: grid;
-    grid-template-areas: "titulo titulo" "parrafo parrafo" "img img" "video video";
+    grid-template-areas: "titulo titulo"
+ "parrafo parrafo"
+ "img img"
+ "video video";
     grid-template-columns: 50% 50%;
     grid-template-rows: 60px 60px 700px 500px; }
   section.titulo {
@@ -7546,7 +7543,10 @@ h6 {
 
 .gridContainer2 {
   display: grid;
-  grid-template-areas: "titulo titulo foto" "parrafo parrafo foto" "video video foto" "video video foto";
+  grid-template-areas: "titulo titulo foto"
+ "parrafo parrafo foto"
+ "video video foto"
+ "video video foto";
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 60px 60px auto auto; }
 
@@ -7657,7 +7657,10 @@ p {
     justify-content: space-evenly; }
   .gridContainer2 {
     display: grid;
-    grid-template-areas: "titulo titulo" "parrafo parrafo" "img img" "video video";
+    grid-template-areas: "titulo titulo"
+ "parrafo parrafo"
+ "img img"
+ "video video";
     grid-template-columns: 50% 50%;
     grid-template-rows: 60px 60px 700px 500px; }
   section.titulo {
