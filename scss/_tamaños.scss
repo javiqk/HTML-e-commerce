@@ -1,0 +1,17 @@
+$parrafoDesktop: 18px;
+$parrafoMobile: 20px;
+$h1Desktop: 50px;
+$h1Mobile: 40px;
+
+
+h1 {
+    font-size: $h1Desktop;
+}
+
+h2 {
+    font-size: $h1Mobile;
+}
+
+p {
+    font-size: $parrafoDesktop;
+}

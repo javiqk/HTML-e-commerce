@@ -1,0 +1,17 @@
+$paddingFotos:15px;
+$paddingParrafos: 14px;
+$paddingTitulos:12px;
+$paddingSecciones:20px;
+
+
+.tienda {
+    padding-left: $paddingFotos;
+}
+
+.tiendaProductos {
+    padding-top: $paddingTitulos;
+}
+
+p {
+    padding-right: $paddingParrafos;
+}
