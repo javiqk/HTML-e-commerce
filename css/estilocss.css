@@ -7351,7 +7351,11 @@ section.videoNosotros {
 
 footer {
   display: flex;
-  height: fit-content; }
+  }
+
+.footer {
+  height: max-content;
+}
 
 .footer__logo{ 
   align-content: center;
