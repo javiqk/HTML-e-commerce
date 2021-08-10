@@ -7278,10 +7278,9 @@ h6 {
 .gridContainerIndex {
   display: grid;
   grid-template-columns: repeat(3, 33%);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 50%);
   column-gap: 5px;
-  row-gap: 20px;
-  padding-left: 120px; }
+  row-gap: 20px; }
 
 .gridContainer2 {
   display: grid;
@@ -7392,11 +7391,7 @@ p {
     display: grid;
     overflow: hidden;
     justify-content: space-evenly; }
-  .gridContainerIndex {
-    display: grid;
-    grid-template-columns: 100%;
-    overflow: hidden;
-    justify-content: space-evenly; }
+
   .gridContainer2 {
     display: grid;
     grid-template-areas: "titulo titulo"
