@@ -7221,8 +7221,9 @@ p {
 
 footer {
   width: 100%;
-  height: 30px;
-  background-image: linear-gradient(#5bd4d4, #44b8b8); }
+  background-image: linear-gradient(#5bd4d4, #44b8b8);
+  padding-top: 40px;
+}
 
   .footer__logo {
     color: #000;
@@ -7230,9 +7231,6 @@ footer {
     font-weight: bolder;
   }
 
-  .redesSocialesIconos {
-    color: black;
-  }
   .redesSocialesIconos {
     display: flex;
     flex-direction: row;
@@ -7352,19 +7350,13 @@ section.videoNosotros {
   border-radius: 90px; }
 
 footer {
-  display: flex; }
+  display: flex;
+  height: fit-content; }
 
-.redesSociales {
-  display: flex; }
-
-.socials {
-  justify-content: center;
-  list-style: none;
-  align-items: center; }
-
-.socials ul {
-  display: inline-block; }
-
+.footer__logo{ 
+  align-content: center;
+  padding-bottom: 0px;
+}
 .contactoInicio a, .redesSocialesInicio {
   color: black; }
 
@@ -7389,6 +7381,10 @@ h6 {
 p {
   color: #080846; }
 
+.card-text {
+  font-size: 15px;
+}
+
 @media only screen and (min-width: 1180px) {
   form {
     transform: translate(80%, 0%); } }
@@ -7396,6 +7392,10 @@ p {
 @media only screen and (min-width: 0px) and (max-width: 576px) {
   h1, h2, h3, h6 {
     text-align: center; }
+    .redesSocialesIconos {
+      display: flex;
+      justify-content: center;
+    }
   .img-rounded, .nosotrosInicio {
     width: 100%;
     justify-content: center; }
