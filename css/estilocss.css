@@ -7388,7 +7388,12 @@ p {
 .card-text {
   font-size: 15px;
 }
-
+.containerGridTienda {
+  overflow: hidden;
+}
+.gridContainerIndex, .containerGridTienda{
+  padding-bottom: 20px;
+}
 @media only screen and (min-width: 1180px) {
   form {
     transform: translate(80%, 0%); } }
@@ -7400,6 +7405,9 @@ p {
       display: flex;
       justify-content: center;
     }
+  main {
+    overflow: hidden;
+  }
   .img-rounded, .nosotrosInicio {
     width: 100%;
     justify-content: center; }
@@ -7461,8 +7469,6 @@ p {
 }
 .seccionInicioNosotros__imagen{
   max-width: 100%;
-  width: fit-content;
-  height: 300px;
   justify-content: center;
 }
 .seccionInicioNosotros__parrafo--padding {
@@ -7473,11 +7479,16 @@ p {
 .imgNosotros{ 
     display: flex;
   }
-section.seccionNosotros__imagen {
+.seccionNosotros__imagen {
   justify-content: center;
+  padding-left: 40px;
 }
 .seccionLocales__parrafo--padding, .seccionLocales2__parrafo--padding, .seccionLocales3__parrafo--padding {
   padding-left: 20px;
+}
+.seccionLocales3__mapa , .seccionLocales2__mapa, .seccionLocales__mapa, .seccionInicioNosotros__imagen, .seccionContacto__formulario {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .carousel-inner {
   width: 100%;
