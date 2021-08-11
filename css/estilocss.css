@@ -4,6 +4,10 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -7394,6 +7398,10 @@ p {
 .gridContainerIndex, .containerGridTienda{
   padding-bottom: 20px;
 }
+.redesSocialesInicio, .contactoInicio {
+  font-family: 'Montserrat', sans-serif;
+}
+
 @media only screen and (min-width: 1180px) {
   form {
     transform: translate(80%, 0%); } }
@@ -7492,6 +7500,15 @@ p {
 }
 .carousel-inner {
   width: 100%;
+}
+footer {
+  display: flex;
+}
+.footer__logo , .redesSocialesIconos, .contactoInicio{
+  padding-bottom: 14px;
+}
+.redesSocialesInicio, .contactoInicio {
+  font-family: 'Montserrat', sans-serif;
 }
 }
 
