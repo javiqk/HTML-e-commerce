@@ -7315,12 +7315,13 @@ h6 {
 
 .gridContainer2 {
   display: grid;
-  grid-template-areas: "titulo titulo foto"
- "parrafo parrafo foto"
- "video video foto"
- "video video foto";
+  grid-template-areas: 
+  "titulo titulo foto"
+  "parrafo parrafo foto"
+  "video video foto"
+  "video video foto";
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 60px 60px auto auto; }
+  grid-template-rows: 60px 200px 300px auto; }
 
 section.titulo {
   grid-area: titulo; }
@@ -7332,7 +7333,7 @@ section.imgNosotros {
   grid-area: foto;
   overflow: hidden; }
 
-section.videoNosotros {
+.videoNosotros {
   grid-area: video; }
 
 .titulo {
