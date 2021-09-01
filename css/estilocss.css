@@ -7296,10 +7296,14 @@ h6 {
 
 .containerGridTienda {
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(3, 25%);
   grid-template-rows: repeat(3, auto);
-  column-gap: 10px;
-  row-gap: 20px;
+}
+
+.containerGridTienda  {
+  row-gap: 40px;
+  column-gap: 100px;
+  padding-left: 50px;
 }
 
 .gridContainerIndex {
