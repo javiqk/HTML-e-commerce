@@ -7285,7 +7285,8 @@ h6 {
   flex-direction: row; }
 
 .tienda {
-  padding-top: 2px; }
+  padding-top: 2px;
+  font-size: 16px; }
 
 .contactenos {
   text-align: center; }
